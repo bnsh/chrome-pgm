@@ -88,7 +88,8 @@ for (var img in imgs) {
 	if (typeof(imgs[img].src) == "string") {
 		for (var key in targets) {
 			var reg = targets[key];
-			if (imgs[img].src != null) {
+			var ss = imgs[img].src + "";
+			if ((imgs[img].src != null) && (ss.search(reg) != -1)) {
 				imgs[img].src = chrome.runtime.getURL("images/" + key);
 			}
 		}
