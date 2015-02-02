@@ -17,8 +17,9 @@ var targets = {
 	"ve-ig-g1-o1-1.jpg": /^.*\/(ve-ig-g1-o1-1.jpg)$/,
 	"ve-ig-g1-o1-2.jpg": /^.*\/(ve-ig-g1-o1-2.jpg)$/,
 	"ve-ig-g1-o1-3.jpg": /^.*\/(ve-ig-g1-o1-3.jpg)$/,
-	"ve-ig-g1-o1-4.jpg": /^.*\/(ve-ig-g1-o1-4.jpg)$/
-// Actually, there's a ve-ig-g1-o1-5.jpg, unfortunately, I don't have that, it seems.
+	"ve-ig-g1-o1-4.jpg": /^.*\/(ve-ig-g1-o1-4.jpg)$/,
+	"ve-ig-g1-o1-5.jpg": /^.*\/(ve-ig-g1-o1-5.jpg)$/
+// Woo hoo! A former Community TA Miguel got it for us! (ve-ig-g1-o1-5.jpg)
 }
 
 var imgs = document.getElementsByTagName("img");
